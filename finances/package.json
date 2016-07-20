@@ -1,0 +1,23 @@
+{
+  "name": "finances",
+  "version": "0.1.0",
+  "description": "Manage your finances with this simple spreadsheet",
+  "main": "app/main.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelbradley91/Finances.git"
+  },
+  "keywords": [
+    "finance"
+  ],
+  "author": "michaelbradley91",
+  "license": "SEE LICENSE IN ../LICENSE",
+  "bugs": {
+    "url": "https://github.com/michaelbradley91/Finances/issues"
+  },
+  "homepage": "https://github.com/michaelbradley91/Finances#readme",
+  "dependencies": {
+    "electron-prebuilt": "^1.2.7"
+  }
+}
