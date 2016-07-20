@@ -5,13 +5,14 @@
       "name": "Launch",
       "type": "node",
       "request": "launch",
-      "program": "${workspaceRoot}/app/app.bundle.js",
+      "program": "${workspaceRoot}/server/server.js",
+      "outDir": "${workspaceRoot}/server",
       "stopOnEntry": false,
       "args": [],
       "cwd": "${workspaceRoot}",
       "runtimeExecutable": "${workspaceRoot}/node_modules/electron-prebuilt/dist/electron.exe",
       "env": { },
-      "sourceMaps": false
+      "sourceMaps": true
     },
     {
       "name": "Attach",
