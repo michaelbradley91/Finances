@@ -5,11 +5,10 @@
       "name": "Launch",
       "type": "node",
       "request": "launch",
-      "program": "${workspaceRoot}/app/main.js", // this is important
+      "program": "${workspaceRoot}/app/app.bundle.js",
       "stopOnEntry": false,
-      "args": [] ,
+      "args": [],
       "cwd": "${workspaceRoot}",
-      // as you have noted, this is also important:
       "runtimeExecutable": "${workspaceRoot}/node_modules/electron-prebuilt/dist/electron.exe",
       "env": { },
       "sourceMaps": false
