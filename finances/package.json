@@ -4,7 +4,8 @@
   "description": "Manage your finances with this simple spreadsheet",
   "main": "app/app.bundle.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
