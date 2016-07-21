@@ -1,18 +1,19 @@
 {
-    "compilerOptions": {
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-        "module": "commonjs",
-        "moduleResolution": "node",
-        "noImplicitAny": false,
-        "outDir": "./build",
-        "rootDir": "./app",
-        "sourceMap": true,
-        "target": "es5"
-    },
-    "exclude": [
-      "node_modules",
-      "build",
-      "app"
-    ]
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "outDir": "./build",
+    "rootDir": "./app",
+    "sourceMap": true,
+    "target": "es5"
+  },
+
+  "exclude": [
+    "node_modules",
+    "build",
+    "app"
+  ]
 }
