@@ -2,7 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  entry: './app/tsapp.ts',
+  entry: './app/main.ts',
   target: 'electron',
   devtool: 'source-map',
 
@@ -13,8 +13,8 @@ module.exports = {
   // Location and filename pattern of the
   // final build output files.
   output: {
-    path: path.join(__dirname, 'server'),
-    filename: "server.js",
+    path: path.join(__dirname, 'build'),
+    filename: "app.bundle.js",
     devtoolModuleFilenameTemplate        : '[absolute-resource-path]',
     devtoolFallbackModuleFilenameTemplate: '[absolute-resource-path]?[hash]',
   },
@@ -27,9 +27,5 @@ module.exports = {
   
   plugins: [
     new webpack.optimize.UglifyJsPlugin()
-  ],
-
-  node: {
-    __dirname: true
-  }
+  ]
 }

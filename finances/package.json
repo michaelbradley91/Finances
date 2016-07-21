@@ -2,7 +2,7 @@
   "name": "finances",
   "version": "0.1.0",
   "description": "Manage your finances with this simple spreadsheet",
-  "main": "app/app.bundle.js",
+  "main": "build/app.bundle.js",
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch"

@@ -5,14 +5,14 @@
         "module": "commonjs",
         "moduleResolution": "node",
         "noImplicitAny": false,
-        "outDir": "./server",
+        "outDir": "./build",
         "rootDir": "./app",
         "sourceMap": true,
         "target": "es5"
     },
     "exclude": [
       "node_modules",
-      "dist",
-      "typings/jquery"
+      "build",
+      "app"
     ]
 }
