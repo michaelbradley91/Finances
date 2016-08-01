@@ -1,0 +1,24 @@
+{
+  "name": "finances",
+  "main": "index.html",
+  "version": "0.1.0",
+  "description": "For managing your finances!",
+  "scripts": {
+    "start": "\"\"%NWHOME%\\nw.exe\"\" . --remote-debugging-port=30134"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelbradley91/Finances.git"
+  },
+  "keywords": [
+    "finances"
+  ],
+  "author": "michaelbradley91",
+  "license": "UNLICENCED",
+  "bugs": {
+    "url": "https://github.com/michaelbradley91/Finances/issues"
+  },
+  "homepage": "https://github.com/michaelbradley91/Finances#readme",
+  "dependencies": {
+  }
+}
