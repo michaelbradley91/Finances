@@ -7,6 +7,12 @@
             "suppressTaskName": true,
             "showOutput": "always",
             "args": ["npm", "run", "start"]
+        },
+        {
+            "taskName": "Watch",
+            "suppressTaskName": true,
+            "showOutput": "always",
+            "args": ["npm", "run", "watch"]
         }
     ]
 }

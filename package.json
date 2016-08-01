@@ -1,10 +1,13 @@
 {
   "name": "finances",
-  "main": "index.html",
+  "main": "app\\dist\\pages\\index.html",
   "version": "0.1.0",
   "description": "For managing your finances!",
   "scripts": {
-    "start": "\"\"%NWHOME%\\nw.exe\"\" . --remote-debugging-port=30134"
+    "prestart": "npm install",
+    "start": "\"\"%NWHOME%\\nw.exe\"\" . --remote-debugging-port=30134",
+    "prewatch": "npm install",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,7 @@
   },
   "homepage": "https://github.com/michaelbradley91/Finances#readme",
   "dependencies": {
+    "jquery": "^3.1.0",
+    "webpack": "^1.13.1"
   }
 }
