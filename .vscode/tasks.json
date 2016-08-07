@@ -3,16 +3,28 @@
 
     "tasks": [
         {
-            "taskName": "Run",
+            "taskName": "Start",
             "suppressTaskName": true,
             "showOutput": "always",
             "args": ["npm", "run", "start"]
+        },
+        {
+            "taskName": "Build",
+            "suppressTaskName": true,
+            "showOutput": "always",
+            "args": ["npm", "run", "build"]
         },
         {
             "taskName": "Watch",
             "suppressTaskName": true,
             "showOutput": "always",
             "args": ["npm", "run", "watch"]
+        },
+        {
+            "taskName": "Test",
+            "suppressTaskName": true,
+            "showOutput": "always",
+            "args": ["npm", "run", "test-no-watch"]
         }
     ]
 }

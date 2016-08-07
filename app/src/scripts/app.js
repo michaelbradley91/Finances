@@ -1,5 +1,7 @@
 $ = require('jquery'); 
 
 $(function () {
-    alert('Hello World');
+    $('h1').click(function () {
+        alert('You clicked me!');
+    });
 });
