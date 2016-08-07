@@ -11,9 +11,9 @@
     "prewatch": "npm install & typings install",
     "watch": "webpack --watch",
     "pretest": "npm install & typings install",
-    "test": "mocha-webpack --watch --webpack-config webpack.config.js \"app/test/**/*.spec.js\"",
+    "test": "mocha-webpack --watch --webpack-config webpack.config.js \"app/test/**/*.spec.ts\"",
     "pretest-no-watch": "npm install & typings install",
-    "test-no-watch": "mocha-webpack --webpack-config webpack.config.js \"app/test/**/*.spec.js\""
+    "test-no-watch": "mocha-webpack --webpack-config webpack.config.js \"app/test/**/*.spec.ts\""
   },
   "repository": {
     "type": "git",
