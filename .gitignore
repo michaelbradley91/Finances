@@ -46,3 +46,5 @@ app/dist/content
 # VS Code
 .vscode/settings.json
 
+# Mocha Webpack
+.tmp
