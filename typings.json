@@ -3,6 +3,8 @@
         "chai": "registry:dt/chai#3.4.0+20160601211834",
         "jquery": "registry:dt/jquery#1.10.0+20160704162008",
         "mocha": "registry:dt/mocha#2.2.5+20160720003353",
+        "react": "registry:dt/react#0.14.0+20160817201227",
+        "react-dom": "registry:dt/react-dom#0.14.0+20160412154040",
         "sinon": "registry:dt/sinon#1.16.0+20160517064723"
     }
 }

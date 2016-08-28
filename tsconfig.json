@@ -5,15 +5,17 @@
         "module": "commonjs",
         "moduleResolution": "node",
         "sourceMap": true,
-        "target": "es5"
+        "target": "es5",
+        "jsx": "react",
+        "noImplicitAny": true
     },
 
     "exclude": [
         "node_modules"
     ],
-
-    "files": [
-        "typings/index.d.ts",
-        "global.d.ts"
+    
+    "include": [
+        "./typings/index.d.ts",
+        "./global.d.ts"
     ]
 }
