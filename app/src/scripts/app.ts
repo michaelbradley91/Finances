@@ -1,8 +1,8 @@
-import $ = require('jquery');
-import greeter = require('./greeter');
+import * as $ from 'jquery';
+import * as greeter from './greeter';
 
 $(function () {
     $('h1').click(function () {
-        alert(greeter('Michael'));
+        alert(greeter.greet('Michael'));
     });
 });
