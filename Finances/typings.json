@@ -3,6 +3,9 @@
         "chai": "registry:dt/chai#3.4.0+20160601211834",
         "jquery": "registry:dt/jquery#1.10.0+20160704162008",
         "mocha": "registry:dt/mocha#2.2.5+20160720003353",
+        "nedb": "registry:dt/nedb#0.0.0+20160505185910",
+        "node": "registry:env/node#6.0.0+20160825160117",
+        "node-webkit": "registry:dt/node-webkit#0.0.0+20160726164208",
         "react": "registry:dt/react#0.14.0+20160817201227",
         "react-dom": "registry:dt/react-dom#0.14.0+20160412154040",
         "sinon": "registry:dt/sinon#1.16.0+20160517064723"
