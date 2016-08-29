@@ -9,7 +9,7 @@ $(() => {
             dataStore.remove({}, { multi: true }, function (error, numRemoved) {
                 if (error) console.log(`Unable to delete database due to error: ${JSON.stringify(error)}`);
             })});
-        if (error) console.log(error);
+        if (error) console.log(`Unable to load the database due to error: ${JSON.stringify(error)}`);
         $('h1').click(() => {
             dataStore.insert({ someData: 'Hello world'}, (error, document) => {
                 console.log(JSON.stringify(document));

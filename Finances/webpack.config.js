@@ -14,12 +14,18 @@ var webpackConfig = {
         extensions: ["", ".webpack.js", ".web.js", ".js", ".ts", ".jsx", ".tsx"]
     },
     module: {
+        noParse: [/localforage.js$/],
         loaders: [
             { test: /\.ts$/, loader: 'ts-loader' },
             { test: /\.tsx$/, loader: 'ts-loader' }
         ]
     },
     plugins: [
+        new webpack.DefinePlugin({
+            'process.env':{
+                'NODE_ENV': JSON.stringify('production')
+            }
+        }),
         new CleanWebpackPlugin(['app/dist/scripts']),
         new webpack.optimize.UglifyJsPlugin({
             compress: {
