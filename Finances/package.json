@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/michaelbradley91/Finances/issues"
   },
-  "homepage": "https://github.com/michaelbradley91/Finances#readme",
+  "homepage": "https://github.com/michaelbradley91/Finances/Finances#readme",
   "dependencies": {
     "chai": "^3.5.0",
     "clean-webpack-plugin": "^0.1.10",
